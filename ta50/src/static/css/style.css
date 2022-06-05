@@ -1,0 +1,34 @@
+.form-control:focus,
+.form-control:active {
+    outline: none;
+    box-shadow: none;
+    border-color: #CED4DA;
+}
+
+.btn:active,
+.btn:focus {
+    border-color: #353a3e;
+}
+
+.btn:hover {
+    border-color: #23272B;
+}
+
+.center-header {
+    position: absolute;
+    left: 50%;
+    top: 32%;
+    transform: translate(-50%, -50%);
+}
+
+.center-row {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+
+#btnJoin {
+    outline: none;
+    box-shadow: none;
+}
